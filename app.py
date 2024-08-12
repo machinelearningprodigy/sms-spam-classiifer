@@ -6,6 +6,10 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 import string
 
+# Download necessary NLTK data
+nltk.download('punkt_tab')
+nltk.download('stopwords')
+
 # Load the trained model and vectorizer
 model = pickle.load(open('model.pkl', 'rb'))
 vectorizer = pickle.load(open('vectorizer.pkl', 'rb'))
