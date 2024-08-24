@@ -1,6 +1,6 @@
 # Email/SMS Spam Classifier
 
-This project is an Email/SMS Spam Classifier application built using Python and Streamlit. The goal of this project is to classify messages as either "Spam" or "Ham" (not spam) based on the content of the message. The model has been trained on a dataset of labeled messages, and it uses Natural Language Processing (NLP) techniques to preprocess the text data before making predictions.
+This project is an Email/SMS Spam Classifier application built using Python and Streamlit. The goal of this project is to classify messages as either "Spam" or "Not Spam" based on the content of the message. The model has been trained on a dataset of labeled messages, and it uses Natural Language Processing (NLP) techniques to preprocess the text data before making predictions.
 
 ## Project Structure
 
@@ -8,7 +8,7 @@ The project consists of the following key components:
 
 - **Streamlit Application**: A user-friendly interface for entering and classifying messages.
 - **Text Preprocessing**: A function that cleans and preprocesses the input text to make it suitable for classification.
-- **Machine Learning Model**: A pre-trained model that predicts whether a message is spam or ham.
+- **Machine Learning Model**: A pre-trained model that predicts whether a message is spam or Not Spam.
 - **Vectorizer**: Converts text data into numerical format (Bag of Words) for the model to process.
 
 ## How It Works
@@ -22,7 +22,7 @@ The project consists of the following key components:
 3. **Vectorization**: The cleaned text is then transformed into a numerical format using a pre-trained `CountVectorizer`.
 4. **Prediction**: The vectorized text is fed into the pre-trained model, which outputs a prediction:
    - `Spam`: The message is classified as spam.
-   - `Ham`: The message is classified as not spam.
+   - `Not Spam`: The message is classified as not spam.
 5. **Output**: The result is displayed on the Streamlit app.
 
 ## Example Usage
@@ -103,11 +103,6 @@ The model was trained on a labeled dataset of SMS messages using common text cla
 - **Vectorization**: Converting text to a Bag of Words representation.
 - **Model Selection**: A machine learning algorithm was selected and trained on the preprocessed data.
 
-## Future Improvements
-
-- **Enhanced Model**: Consider using more advanced models like TF-IDF or deep learning techniques for better accuracy.
-- **Email Classification**: Extend the classifier to handle emails more effectively.
-- **Real-time API**: Deploy the model as an API for real-time spam detection.
 
 ## Conclusion
 
