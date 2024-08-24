@@ -1,6 +1,3 @@
-Here's a `README.md` file for your Email/SMS Spam Classifier Project:
-
-```markdown
 # Email/SMS Spam Classifier
 
 This project is an Email/SMS Spam Classifier application built using Python and Streamlit. The goal of this project is to classify messages as either "Spam" or "Ham" (not spam) based on the content of the message. The model has been trained on a dataset of labeled messages, and it uses Natural Language Processing (NLP) techniques to preprocess the text data before making predictions.
@@ -121,6 +118,5 @@ Feel free to explore, contribute, or extend the project. Happy coding!
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
 This `README.md` file should provide all the necessary information about your Email/SMS Spam Classifier project, making it easy for others to understand and use.
